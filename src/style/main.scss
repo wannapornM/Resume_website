@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container-main {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    grid-gap: 2rem;
+}
+
+.photo {
+    text-align: center;
+    img {
+        width: 210px;
+        height: 210px;
+        border-radius: 130px;
+        object-fit: cover;
+    }
+}
+
+aside {
+    background-color: lightblue;
+    padding: 6rem 2rem 0;
+    section {
+        margin-bottom: 3rem;
+    }
+}
