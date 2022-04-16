@@ -2,5 +2,15 @@
   "name": "resume",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.4.1"
+  },
+  "scripts": {
+    "dev": "yarn parcel src/index.html",
+    "build": "yarn parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.4.1"
+  }
 }
