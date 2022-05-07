@@ -9,8 +9,8 @@
     "react-dom": "^18.1.0"
   },
   "scripts": {
-    "dev": "yarn parcel src/main.html",
-    "build": "yarn parcel build src/main.html"
+    "dev": "yarn parcel src/index.html",
+    "build": "yarn parcel build src/index.html"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.4.1"
