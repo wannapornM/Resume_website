@@ -52,7 +52,7 @@ export default function Main() {
       </aside>
 
       <main>
-        <div className="content content-top">
+        <section className="content content-top">
           <h1>Wannaporn Dangkum</h1>
           <p>
             I am intersted in web application and Front-end Developer. I have
@@ -61,9 +61,9 @@ export default function Main() {
             solving problems in my work. I am ready to open up to new knowledge.
             Ready to learn to work as a team and also learning live in society
           </p>
-        </div>
+        </section>
 
-        <div className="content content-project">
+        <section className="content content-project">
           <h3>Projects</h3>
           <hr style={{ borderTop: "2px solid black" }} />
           <div className="project">
@@ -81,9 +81,9 @@ export default function Main() {
               <li>Save and retrieve data from the database for display</li>
             </ul>
           </div>
-        </div>
+        </section>
 
-        <div className="content content-workExperience">
+        <section className="content content-workExperience">
           <h3>Work experiences</h3>
           <hr style={{ borderTop: "2px solid black" }} />
           <div className="company">
@@ -119,9 +119,9 @@ export default function Main() {
               </li>
             </ul>
           </div>
-        </div>
+        </section>
 
-        <div className="content content-skill">
+        <section className="content content-skill">
           <h3>Skills</h3>
           <hr style={{ borderTop: "2px solid black" }} />
           <ul>
@@ -129,7 +129,7 @@ export default function Main() {
             <li>React.js</li>
             <li>JavaScript</li>
           </ul>
-        </div>
+        </section>
       </main>
     </div>
   );
