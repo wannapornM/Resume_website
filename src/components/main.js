@@ -52,7 +52,7 @@ export default function Main() {
       </aside>
 
       <main>
-        <section className="content content-top">
+        <section className="content-top">
           <h1>Wannaporn Dangkum</h1>
           <p>
             I am intersted in web application and Front-end Developer. I have
@@ -63,7 +63,7 @@ export default function Main() {
           </p>
         </section>
 
-        <section className="content content-project">
+        <section className="content-project">
           <h3>Projects</h3>
           <hr style={{ borderTop: "2px solid black" }} />
           <div className="project">
@@ -78,12 +78,12 @@ export default function Main() {
                 Application that simulates buying tickets for the Airport Rail
                 Link
               </li>
-              <li>Save and retrieve data from the database for display</li>
+              <li>Calculate fare and display using React.js</li>
             </ul>
           </div>
         </section>
 
-        <section className="content content-workExperience">
+        <section className="content-workExperience">
           <h3>Work experiences</h3>
           <hr style={{ borderTop: "2px solid black" }} />
           <div className="company">
@@ -96,12 +96,15 @@ export default function Main() {
               and React in the mini-bootcamp at Hello Spec
             </li>
             <li>
-              Develop <a href="">Salon landing page</a> from PSD design with
-              frontend animated features
+              Develop{" "}
+              <a href="https://glistening-kangaroo-c28d07.netlify.app/">
+                Salon landing page
+              </a>{" "}
+              from PSD design with frontend animated features
             </li>
             <li>
-              Working on <a href="">HK9</a> app that calculate and display Thai
-              astrology called Horakhun
+              Working on <a href="http://hk9.hellospec.work">HK9</a> app that
+              calculate and display Thai astrology called Horakhun
             </li>
           </ul>
           <div className="company">
@@ -121,7 +124,7 @@ export default function Main() {
           </div>
         </section>
 
-        <section className="content content-skill">
+        <section className="content-skill">
           <h3>Skills</h3>
           <hr style={{ borderTop: "2px solid black" }} />
           <ul>

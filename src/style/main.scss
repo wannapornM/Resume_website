@@ -28,7 +28,7 @@ ul {
   .container-main {
     display: grid;
     grid-template-columns: 350px 1fr;
-    grid-gap: 4rem;
+    grid-gap: 3rem;
     padding: 3rem 2rem;
 
     aside {
@@ -78,6 +78,12 @@ ul {
       section {
         margin-bottom: 3rem;
       }
+
+      a {
+        color: #172024;
+        font-weight: 600;
+      }
+
       .project {
         padding: 0.5rem 0 2rem;
       }
