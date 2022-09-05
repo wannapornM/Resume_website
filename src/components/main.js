@@ -45,7 +45,7 @@ export default function Main() {
           <h3>Contact</h3>
           <div className="contact-address">
             <div>1/62 N0.8 Bang Chalong, Bang Phli, Samutprakan, 10540</div>
-            <div>Email : wannaporndangkum@gmail.com</div>
+            <div>Email : wannapornd@helleSpec.com</div>
             <div>Facebook : Wannaporn Miw</div>
           </div>
         </section>
@@ -55,12 +55,11 @@ export default function Main() {
         <div className="content content-top">
           <h1>Wannaporn Dangkum</h1>
           <p>
-            I have knowledge and experience in developing web applications using
-            Python and JavaScript. I am intersted in web application and
-            Front-end Developer. I eager to develop while challenging myself by
-            apply the knowledge and solving problems in my work. I am ready to
-            open up to new knowledge. Ready to learn to work as a team and also
-            learning live in society
+            I am intersted in web application and Front-end Developer. I have
+            experiences using React.js, JavaScript, Rails and HTML/CSS. I eager
+            to develop while challenging myself by apply the knowledge and
+            solving problems in my work. I am ready to open up to new knowledge.
+            Ready to learn to work as a team and also learning live in society
           </p>
         </div>
 
@@ -68,16 +67,12 @@ export default function Main() {
           <h3>Projects</h3>
           <hr style={{ borderTop: "2px solid black" }} />
           <div className="project">
-            <h4>Patient information management system using Python</h4>
-            <ul>
-              <li>Get input data and display through GUI</li>
-              <li>
-                Store and update data into database using DB Browser SQLite
-              </li>
-            </ul>
-          </div>
-          <div className="project">
-            <h4>Service for purchasing tickets for the Airport Rail Link</h4>
+            <h4>
+              <a href="">
+                Demo application for purchasing tickets service for the Airport
+                Rail Link
+              </a>
+            </h4>
             <ul>
               <li>
                 Application that simulates buying tickets for the Airport Rail
@@ -99,6 +94,14 @@ export default function Main() {
             <li>
               Participate in develop mini-projects base on JavaScript, HTML/CSS
               and React in the mini-bootcamp at Hello Spec
+            </li>
+            <li>
+              Develop <a href="">Salon landing page</a> from PSD design with
+              frontend animated features
+            </li>
+            <li>
+              Working on <a href="">HK9</a> app that calculate and display Thai
+              astrology called Horakhun
             </li>
           </ul>
           <div className="company">
@@ -122,10 +125,9 @@ export default function Main() {
           <h3>Skills</h3>
           <hr style={{ borderTop: "2px solid black" }} />
           <ul>
-            <li>Python</li>
-            <li>HTML</li>
+            <li>HTML/CSS</li>
+            <li>React.js</li>
             <li>JavaScript</li>
-            <li>CSS</li>
           </ul>
         </div>
       </main>
