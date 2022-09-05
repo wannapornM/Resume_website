@@ -1,6 +1,6 @@
 import React from "react";
 
-const photo = new URL("/assets/myPhoto.jpg", import.meta.url);
+const photo = new URL("/assets/profile.jpg", import.meta.url);
 
 export default function Main() {
   return (
