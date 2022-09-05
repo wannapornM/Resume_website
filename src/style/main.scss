@@ -1,8 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
-  color: #172024;
-  max-width: 80%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 h1,
@@ -22,74 +19,79 @@ ul {
   padding: 0 0 0 25px;
 }
 
-aside {
-  padding: 4rem 2rem 0;
-  section {
-    margin-bottom: 3rem;
-  }
-  .education {
-    p {
-      margin: 0;
-      color: #6a6e71;
-    }
-  }
-  .education-content {
-    margin-top: 0.5rem;
-    div:nth-child(3) {
-      padding-bottom: 1rem;
-    }
-  }
-  .values ul {
-    margin-top: 0.5rem;
-  }
-  .hobbies ul {
-    margin-top: 0.5rem;
-  }
-  .contact-address {
-    div:nth-child(1) {
-      padding-top: 0.5rem;
-    }
-    div:nth-child(2) {
-      padding-top: 1rem;
-    }
-  }
-}
+#main {
+  font-family: "Poppins", sans-serif;
+  max-width: 1024px;
+  color: #172024;
+  margin: 0 auto;
 
-main {
-  margin: 4rem 0.5rem 0 4rem;
-  .content {
-    margin-bottom: 4rem;
-  }
-  .project {
-    padding: 0.5rem 0 2rem;
-  }
-  .content-workExperience {
-    span:nth-child(2) {
-      float: right;
-    }
-    ul {
-      margin-bottom: 2rem;
-    }
-    ul li:only-child {
-      padding-bottom: 1.5rem;
-    }
-  }
-}
+  .container-main {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-gap: 4rem;
+    padding: 3rem 2rem;
 
-.container-main {
-  background-color: white;
-  display: grid;
-  grid-template-columns: 380px 1fr;
-  grid-gap: 2rem;
-  margin: 0 0 8rem;
-}
+    aside {
+      section {
+        margin-bottom: 3rem;
+      }
 
-.photo {
-  text-align: center;
-  img {
-    width: 230px;
-    height: 230px;
-    border-radius: 130px;
-    object-fit: cover;
+      .photo {
+        text-align: center;
+        img {
+          width: 230px;
+          height: 230px;
+          border-radius: 130px;
+          object-fit: cover;
+        }
+      }
+
+      .education {
+        p {
+          margin: 0;
+          color: #6a6e71;
+        }
+      }
+      .education-content {
+        margin-top: 0.5rem;
+        div:nth-child(3) {
+          padding-bottom: 1rem;
+        }
+      }
+      .values ul {
+        margin-top: 0.5rem;
+      }
+      .hobbies ul {
+        margin-top: 0.5rem;
+      }
+      .contact-address {
+        div:nth-child(1) {
+          padding-top: 0.5rem;
+        }
+        div:nth-child(2) {
+          padding-top: 1rem;
+        }
+      }
+    }
+
+    main {
+      section {
+        margin-bottom: 3rem;
+      }
+      .project {
+        padding: 0.5rem 0 2rem;
+      }
+      .content-workExperience {
+        span:nth-child(2) {
+          float: right;
+        }
+        ul {
+          margin-bottom: 2rem;
+        }
+        ul li:only-child {
+          padding-bottom: 1.5rem;
+        }
+      }
+    }
   }
 }
